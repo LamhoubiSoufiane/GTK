@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <Fenetre id="1" Hauteur="500" Largeur="500" redimensionnable="1"
+             PositionX="1" PositionY="1" BarreTitre="1"
+             Ascenceurs="1" Titre="SALUT" Sous_Titre="Sous-titre"
+             Icone="NULL" Couleur="white">
+        <Box id="2" Espace="0" Type="0" Couleur="aqua">
+            <Button id="3" Nom="_Ok" Icone="NULL"
+                    PositionX="50" PositionY="300"
+                    Hauteur="110" Largeur="60" Mnemonic="1"/>
+        </Box>
+        <Box id="4" Espace="0" Type="0" Couleur="NULL">
+            <Label id="5" Text="Entrer votre Nom" Back_Color="yellow" Text_Color="black"
+                   Barrer_Text="false" Barre_Color="black" Font="Sans Bold Italic"
+                   Size="small" Underline="single" Underline_Color="black" Style_Text="italic"
+                   Weight="bold" Select="0" Alignement="0" PositionX="400" PositionY="100"
+                   Hauteur="40" Largeur="100"/>
+        </Box>
+        <Box id="6" Espace="0" Type="0" Couleur="NULL">
+            <Label id="7" Text="Mot de passe" Back_Color="yellow" Text_Color="black"
+                   Barrer_Text="false" Barre_Color="black" Font="Sans Bold Italic"
+                   Size="small" Underline="single" Underline_Color="black" Style_Text="italic"
+                   Weight="bold" Select="0" Alignement="0" PositionX="400" PositionY="160"
+                   Hauteur="40" Largeur="100"/>
+        </Box>
+        <Menu id="8" type="0" PositionX="0" PositionY="0"  Couleur="aqua">
+            <Elem Nom="File" Icone="NULL"/>
+            <Elem Nom="Edit" Icone="NULL"/>
+            <Elem Nom="View" Icone="NULL"/>
+            <Sous_Elem Nom="New" MenuPere="File" Mnemonic="n" Icone="NULL" Couleur="aqua"/>
+            <Sous_Elem Nom="Project" MenuPere="New" Mnemonic="p" Icone="NULL" Couleur="aqua"/>
+            <Sous_Elem Nom="Open" MenuPere="File" Mnemonic="o" Icone="NULL" Couleur="yellow"/>
+            <Sous_Elem Nom="Settings" MenuPere="File" Mnemonic="s" Icone="NULL" Couleur="aqua"/>
+            <Sous_Elem Nom="Cut" MenuPere="Edit" Mnemonic="x" Icone="NULL" Couleur="aqua"/>
+            <Sous_Elem Nom="Cupy" MenuPere="Edit" Mnemonic="c" Icone="NULL" Couleur="rose"/>
+            <Sous_Elem Nom="Recent files" MenuPere="View" Mnemonic="r" Icone="NULL" Couleur="aqua"/>
+            <Sous_Elem Nom="C" MenuPere="Project" Mnemonic="v" Icone="NULL" Couleur="red"/>
+            <Sous_Elem Nom="H" MenuPere="Project" Mnemonic="a" Icone="NULL" Couleur="aqua"/>
+            <Sous_Elem Nom="test" MenuPere="C" Mnemonic="f" Icone="NULL" Couleur="blue"/>
+        </Menu>
+        <Box id="9" Espace="0" Type="0" Couleur="NULL">
+            <Entry id="10" Visibility="1" TailleCarac="15" Editable="1" Text="NULL" Justnum="0"
+                    PositionX="400" PositionY="120" Hauteur="40" Largeur="70"/>
+        </Box>
+        <Box id="11" Espace="0" Type="0" Couleur="NULL">
+            <Combobox id="12" PositionX="1300" PositionY="60" Hauteur="60" Largeur="110" Entry="0">
+                <Elem id="13" Nom="elem1"/>
+                <Elem id="14" Nom="elem2"/>
+                <Elem id="15" Nom="elem3"/>
+                <Elem id="16" Nom="elem4"/>
+                <Elem id="17" Nom="elem5"/>
+            </Combobox>
+        </Box>
+        <Box id="18" Espace="0" Type="0" Couleur="NULL">
+            <Entry id="19" Visibility="0" TailleCarac="15" Editable="1" Text="NULL" Justnum="0"
+                   PositionX="400" PositionY="180" Hauteur="40" Largeur="70"/>
+        </Box>
+        <Box id="20" Espace="0" Type="1" Couleur="green">
+            <RadioButton id="21" Nom="Rad1" PositionX="800" PositionY="100" Hauteur="40" Largeur="80">
+                <Elem id="22" Nom="Rad2"/>
+                <Elem id="23" Nom="Rad3"/>
+                <Elem id="24" Nom="Rad4"/>
+            </RadioButton>
+        </Box>
+        <Box id="25" Espace="0" Type="1" Couleur="green">
+            <CheckButton id="26" Nom="check10" Icone="NULL" PositionX="1000" PositionY="100" Hauteur="40" Largeur="80" Activate="0" Mnemonic="0">
+                <Elem id="27" Nom="check45" Icone="NULL" Activate="0" Mnemonic="0"/>
+                <Elem id="28" Nom="check33" Icone="NULL" Activate="0" Mnemonic="0"/>
+                <Elem id="29" Nom="check447" Icone="NULL" Activate="0" Mnemonic="0"/>
+            </CheckButton>
+        </Box>
+        <Box id="30" Espace="0" Type="1" Couleur="green">
+            <ToggleButton id="31" Nom="Ook" Icone="NULL" PositionX="1000" PositionY="600" Hauteur="40" Largeur="80" Mnemonic="1">
+            </ToggleButton>
+        </Box>
+        <Menu id="31" type="2" PositionX="1200" PositionY="500"  Couleur="gray">
+            <Elem Nom="File" Icone="NULL"/>
+            <Elem Nom="Edit" Icone="NULL"/>
+            <Elem Nom="View" Icone="NULL"/>
+            <Sous_Elem Nom="New" MenuPere="File" Mnemonic="n" Icone="NULL" Couleur="LightSalmon"/>
+            <Sous_Elem Nom="Project" MenuPere="New" Mnemonic="p" Icone="NULL" Couleur="HotPink"/>
+            <Sous_Elem Nom="Open" MenuPere="File" Mnemonic="o" Icone="NULL" Couleur="DarkOrange"/>
+            <Sous_Elem Nom="Settings" MenuPere="File" Mnemonic="s" Icone="NULL" Couleur="Gold"/>
+            <Sous_Elem Nom="Cut" MenuPere="Edit" Mnemonic="x" Icone="NULL" Couleur="LightGoldenrodYellow"/>
+            <Sous_Elem Nom="Cupy" MenuPere="Edit" Mnemonic="c" Icone="NULL" Couleur="rose"/>
+            <Sous_Elem Nom="Recent files" MenuPere="View" Mnemonic="r" Icone="NULL" Couleur="Khaki"/>
+            <Sous_Elem Nom="C" MenuPere="Project" Mnemonic="v" Icone="NULL" Couleur="DarkKhaki"/>
+            <Sous_Elem Nom="H" MenuPere="Project" Mnemonic="a" Icone="NULL" Couleur="Violet"/>
+            <Sous_Elem Nom="test" MenuPere="C" Mnemonic="f" Icone="NULL" Couleur="LawnGreen"/>
+        </Menu>
+        <Box id="32" Espace="0" Type="0" Couleur="NULL">
+            <Frame id="33" Text="Mon frame" Xalign="0" Yalign="0.5" Shadow="3" Color="NULL" Hauteur="300" Largeur="500" >
+                <Box id="34" Espace="0" Type="1" Couleur="NULL">
+                    <Label id="35" Text="Entrer votre Nom" Back_Color="yellow" Text_Color="black"
+                           Barrer_Text="false" Barre_Color="black" Font="Sans Bold Italic"
+                           Size="small" Underline="single" Underline_Color="black" Style_Text="italic"
+                           Weight="bold" Select="0" Alignement="0" PositionX="400" PositionY="600"
+                           Hauteur="40" Largeur="100"/>
+                    <Entry id="36" Visibility="1" TailleCarac="15" Editable="1" Text="NULL" Justnum="0"
+                           PositionX="400" PositionY="600" Hauteur="40" Largeur="70"/>
+                </Box>
+            </Frame>
+        </Box>
+    </Fenetre>
+</root>
